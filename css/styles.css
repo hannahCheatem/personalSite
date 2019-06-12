@@ -36,6 +36,22 @@ hr {
 
 /**************************classes*************************/
 
+.butn {
+  font-family: Arial;
+  color: #f2f4d1;
+  font-size: 20px;
+  background: #b2d3be;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0px;
+  border-style:none;
+}
+
+.butn:hover {
+  background: #89a3b2;
+  text-decoration: none;
+}
+
 .icon{
   width:75px;
   display: inline;
@@ -49,6 +65,7 @@ hr {
 .skills{
   display: inline-block;
   position:relative;
+  width:75%;
 }
 .skill-row{
   text-align:left;
@@ -63,20 +80,29 @@ hr {
   margin: 0px;
   width: 100%;
   color: #89a3b2;
+  text-align:right;
+  padding:0px;
 }
 .middle-container{
   text-align:center;
   padding: 0px;
+  margin:0px;
+  width:100%;
+  padding:0px;
 }
 .bottom-container{
+  color: #89a3b2;
   background-color: #5e6073;
-  height: 200px;
+  height: 100px;
   margin: 0px;
+  padding:0px;
   width:100%;
+  text-align:center;
+
 }
 .contact{
   display: inline-block;
-  width: 500px;
+  width: 275px;
 }
 .line{
   border-top-style: solid;
@@ -94,9 +120,10 @@ hr {
   width: 100%;
   background-color: white;
   margin: 0px;
+  padding:0px;
 }
 #profilePic{
-  margin: auto 0 auto 0;
+  margin: 10px 0 auto 10px;
   height:200px;
   width:200px;
   border:10px;
@@ -114,6 +141,12 @@ hr {
 }
 
 #contact-info{
+  margin:15px auto 15px auto;
   line-height:2;
   text-align:left;
+}
+
+#navbar{
+  margin:0px;
+  padding:0px;
 }
