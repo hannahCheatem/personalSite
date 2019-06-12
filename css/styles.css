@@ -68,9 +68,10 @@ hr {
   width:75%;
 }
 
-.skills @media (max-width: 3000px) {
-
-    width:500px;
+@media (max-width: 1000px) {
+    .skills{
+      width:500px;
+    }
 }
 
 .skill{
