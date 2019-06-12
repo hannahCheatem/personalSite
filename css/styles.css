@@ -1,0 +1,119 @@
+body {
+  background-color: #f2f4d1;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #5e6073;
+  font-family: 'Pacifico', cursive;
+  margin: 0px;
+}
+h2 {
+  color: #5e6073;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 5px;
+}
+
+h3 {
+  color: #5e6073;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+}
+
+div {
+  margin: 0 5% 10px 5%;
+  width: 85%;
+  padding: 10px;
+}
+
+hr {
+  border-width: 5px 0 0 0;
+  border-top-style: dotted;
+  border-color: #b2d3be;
+  width: 10%;
+}
+
+/**************************classes*************************/
+
+.icon{
+  width:75px;
+  display: inline;
+  float: left;
+  margin: 10px 10px 10px 50px;
+}
+.icon-right{
+  float: right;
+  margin: 10px 50px 10px 10px
+}
+.skills{
+  display: inline-block;
+  position:relative;
+}
+.skill-row{
+  text-align:left;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  margin:25px 10px 25px 10px;
+  padding: 0px;
+}
+.top-container {
+  background-color: #b2d3be;
+  margin: 0px;
+  width: 100%;
+  color: #89a3b2;
+}
+.middle-container{
+  text-align:center;
+  padding: 0px;
+}
+.bottom-container{
+  background-color: #5e6073;
+  height: 200px;
+  margin: 0px;
+  width:100%;
+}
+.contact{
+  display: inline-block;
+  width: 500px;
+}
+.line{
+  border-top-style: solid;
+  width: 150px;
+}
+
+/***************************ids*****************************/
+
+#profileBox{
+  width: 770px;
+  margin: 0px auto 0px auto;
+}
+
+#profileSection{
+  width: 100%;
+  background-color: white;
+  margin: 0px;
+}
+#profilePic{
+  margin: auto 0 auto 0;
+  height:200px;
+  width:200px;
+  border:10px;
+  border-style: solid;
+  border-color: #b2d3be;
+  border-radius:100%;
+}
+#description{
+  padding: 0px;
+  text-align:left;
+  display: inline-block;
+  margin:20px;
+  width:500px;
+  float:right;
+}
+
+#contact-info{
+  line-height:2;
+  text-align:left;
+}
