@@ -67,6 +67,17 @@ hr {
   position:relative;
   width:75%;
 }
+
+.skills @media (max-width: 3000px) {
+
+    width:500px;
+}
+
+.skill{
+  margin:0px;
+  padding:0px;
+  display:inline;
+}
 .skill-row{
   text-align:left;
   width: 300px;
